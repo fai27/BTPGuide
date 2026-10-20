@@ -1,0 +1,55 @@
+/* KenaliBTP Design System Tokens */
+:root {
+  /* Brand Palette */
+  --primary: #176B45;
+  --primary-hover: #125436;
+  --primary-active: #0d3e28;
+  --secondary: #E6F4EA;
+  --secondary-hover: #d3ecd9;
+  --background: #F8FAF8;
+  --surface: #FFFFFF;
+  --surface-alt: #F3F6F3;
+  
+  /* Text Colors */
+  --text-primary: #17231C;
+  --text-secondary: #66736A;
+  --text-muted: #8E9E94;
+  --text-inverse: #FFFFFF;
+  
+  /* Feedback & Accents */
+  --warning: #F5A623;
+  --warning-bg: #FEF6E9;
+  --danger: #D9534F;
+  --danger-bg: #FDEDED;
+  --success: #176B45;
+  --success-bg: #E6F4EA;
+  --info: #2196F3;
+  --info-bg: #E3F2FD;
+  
+  /* Borders & Shadows */
+  --border: #E2E9E3;
+  --border-light: #EEF3EF;
+  --border-dark: #CBD6CD;
+  
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 9999px;
+  
+  --shadow-xs: 0 1px 2px rgba(23, 35, 28, 0.04);
+  --shadow-sm: 0 2px 6px rgba(23, 35, 28, 0.06);
+  --shadow-md: 0 4px 14px rgba(23, 35, 28, 0.08);
+  --shadow-lg: 0 10px 25px rgba(23, 35, 28, 0.10);
+  --shadow-floating: 0 14px 34px rgba(23, 35, 28, 0.14);
+  
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+  
+  /* Dimensions */
+  --max-width-mobile: 480px;
+  --max-width-desktop: 1080px;
+  --bottom-nav-height: 68px;
+}
